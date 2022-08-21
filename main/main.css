@@ -1,0 +1,21 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+/* Colors */
+:root {
+    --purple-color: #ba77f2;
+}
+
+/* Reset and Config */
+body { width: 100%; height: 100%; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
