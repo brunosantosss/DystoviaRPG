@@ -1,21 +1,32 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 /* Colors */
 :root {
-    --purple-color: #ba77f2;
+    --main-color: #9A0001;
+    --button-color: #7a0202;
+    --link-color: #7A7A7A;
+    --text-color: #343434;
+    --smoke-color: #eee;
 }
 
 /* Reset and Config */
-body { width: 100%; height: 100%; }
+body { width: 100%; height: 100%; background-color: var(--smoke-color); }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Aboreto', sans-serif;
 }
 
 ul, li, a {
     list-style: none;
     text-decoration: none;
+}
+
+button {
+    border: none;
 }

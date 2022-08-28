@@ -1,0 +1,128 @@
+main { overflow-x: hidden; }
+main > section { margin-bottom: 10em; }
+
+/* */
+.h-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.h-title, .h-subtitle { font-size: 5em; color: var(--text-color); }
+.h-subtitle {
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+.h-paragraph {
+    font-size: 1.1em;
+    line-height: 26px;
+}
+
+.h-section-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-top: 3.5em;
+}
+.h-section-buttons > a, button {
+    padding: 12px;
+    background-color: var(--button-color);
+    border-radius: 12px;
+    font-family: 'Aboreto';
+    font-size: 1em;
+    color: var(--smoke-color);
+    cursor: pointer;
+}
+.h-section-gods { width: 40%; }
+
+/* */
+.h-system-examples {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.h-example {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8em;
+}
+.h-example-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 1.5em;
+    width: 45%;
+    line-height: 36px;
+}
+.h-example img {
+    width: 40%;
+}
+/* */
+.h-title-gods {
+    background-color: var(--main-color);
+    text-align: center;
+    font-size: 2.5em;
+    padding: 30px;
+}
+.h-about-gods {
+    width: 100%;
+    height: 100%;
+}
+
+.h-cards-gods {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--main-color);
+    padding: 2em;
+    margin-bottom: 10em;
+}
+.h-about-gods p { color: var(--smoke-color); font-family: 'Aboreto'; }
+.h-cardgod > h2 { color: var(--smoke-color); margin-bottom: 8px; }
+.h-cardgod > p { margin-bottom: 1.5em; }
+/* */
+
+.h-end {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 20px;
+}
+.h-end img {
+    width: 30%;
+}
+.h-content { width: 50%; }
+.h-content h1 {
+    font-size: 1.8em;
+    color: var(--smoke-color);
+    margin-bottom: 40px;
+}
+.h-content p {
+    font-size: 1.4em;
+    color: var(--smoke-color);
+    font-family: 'Aboreto';
+    margin-bottom: 3em;
+    line-height: 30px;
+}
+.h-end-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    margin-top: 3.5em;
+}
+.h-end-buttons > a, button {
+    padding: 12px;
+    background-color: var(--button-color);
+    border-radius: 12px;
+    font-family: 'Aboreto';
+    font-size: 1em;
+    color: var(--smoke-color);
+    cursor: pointer;
+}
